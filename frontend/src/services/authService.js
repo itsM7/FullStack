@@ -1,10 +1,7 @@
 import axios from "axios";
 
-const token = localStorage.getItem("token");
-
 const api = axios.create({
-  //baseURL: "http://ade753b60e37f44259bb06edb9fd3092-381420277.eu-west-1.elb.amazonaws.com/api",
-  baseURL: "http://localhost:8080/api",
+  baseURL: "http://13.49.225.86:8080/api",
   headers: {
     "Content-Type": "application/json",
   },
