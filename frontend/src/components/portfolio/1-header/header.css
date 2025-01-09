@@ -1,0 +1,11 @@
+header ul{
+    gap: 16px;
+}
+
+header ul li a {
+    color: var(--title);
+}
+
+header button {
+    
+}

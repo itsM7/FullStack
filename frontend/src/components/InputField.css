@@ -1,0 +1,32 @@
+.input-field {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input-element {
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #aaa;
+  pointer-events: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.input-element:focus + .input-label,
+.input-label.focused {
+  top: 0;
+  left: 10px;
+  font-size: 12px;
+  color: #4A90E2;
+}

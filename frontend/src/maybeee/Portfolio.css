@@ -1,0 +1,37 @@
+.portfolio-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .portfolio-about,
+  .portfolio-projects {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .portfolio-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+  }
+  
